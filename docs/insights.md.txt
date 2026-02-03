@@ -1,0 +1,13 @@
+## Key Business Insights
+
+- Technology category contributes the highest sales.
+- Certain sub-categories show low profit despite high sales.
+- West and East regions drive maximum revenue.
+- Loss areas are visible clearly through profit-focused visuals.
+- Interactive slicers enable multi-dimensional analysis by date, region, and category.
+
+## Recommendations
+
+- Review pricing strategy for low-profit segments.
+- Focus marketing efforts on high-performing regions.
+- Optimize product mix to reduce loss contribution.
