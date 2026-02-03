@@ -1,0 +1,126 @@
+# 🧹 Data Cleaning & Preprocessing Steps  
+**Project:** Sales Data Analytics Dashboard
+
+This document explains the data cleaning and preprocessing steps applied to the **Sales dataset** before creating dashboards and business insights.
+
+---
+
+## 📂 Dataset Overview
+
+- Source: Sales transactional CSV file
+- Format: CSV
+- Used for: Sales performance analysis & Power BI dashboard
+
+---
+
+## 🔍 Initial Data Understanding
+
+Performed initial checks to understand the dataset:
+
+- Previewed top and bottom rows
+- Verified column names and structure
+- Checked total rows and columns
+- Reviewed data types of each column
+
+---
+
+## ❌ Handling Missing Values
+
+- Checked for null / blank values in all columns
+- No critical missing values found in:
+  - Sales
+  - Profit
+  - Category
+  - Sub-Category
+  - Region
+- Dataset was clean enough for direct analysis
+
+---
+
+## 🔁 Duplicate Records
+
+- Checked for duplicate rows
+- No duplicate records affecting analysis were found
+- Dataset integrity maintained
+
+---
+
+## 🔢 Data Type Validation
+
+Ensured correct data types for analysis:
+
+- `Sales` and `Profit` → Numeric
+- `Quantity` → Integer
+- `Order Date` → Date format
+- `Category`, `Sub-Category`, `Region`, `Segment` → Text
+
+---
+
+## 💰 Calculated Fields
+
+The following calculated metrics were used during analysis:
+
+- **Profit Margin (%)**
+Profit Margin % = (Profit / Sales) × 100
+
+
+- Aggregations such as:
+- Total Sales
+- Total Profit
+- Average Profit Margin
+
+(All calculations were primarily handled inside Power BI using DAX.)
+
+---
+
+## 🧼 Data Consistency Checks
+
+- Verified positive and negative profit values
+- Confirmed category and sub-category naming consistency
+- Ensured no spelling or formatting inconsistencies
+
+---
+
+## 📊 Outlier Review
+
+- Reviewed extreme values in Sales and Profit
+- Negative profit values were retained as they indicate losses
+- No unrealistic values were removed
+
+---
+
+## ✅ Final Dataset Validation
+
+Before visualization:
+
+- Dataset had no null values
+- All columns were correctly typed
+- Metrics aligned with business logic
+- Data was ready for dashboard creation
+
+---
+
+## 📈 Ready for Dashboarding
+
+After cleaning and validation, the dataset was:
+
+- Ready for Power BI visualization
+- Used for KPI cards, charts, and slicers
+- Suitable for sales trend and profitability analysis
+
+---
+
+## 📝 Tools Used
+
+- Microsoft Power BI
+- Excel (basic validation)
+- DAX for calculated measures
+
+---
+
+## 👤 Author
+
+**Shivi Shrivastava**  
+Sales Data Analytics | Business Intelligence  
+
+
