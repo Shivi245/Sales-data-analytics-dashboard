@@ -1,0 +1,36 @@
+# Executive Summary – Sales Analytics Dashboard
+
+## Objective
+The objective of this project is to analyze sales performance data and present actionable insights through an interactive Power BI dashboard. The dashboard is designed for business stakeholders to quickly understand revenue trends, profitability, and performance drivers.
+
+---
+
+## Scope of Analysis
+The analysis covers:
+- Overall sales and profit performance
+- Category and sub-category contribution
+- Product-level performance trends
+- Regional sales distribution
+- Time-based filtering for dynamic analysis
+
+---
+
+## Key Highlights
+- Sales performance is driven primarily by a few high-performing categories.
+- Profitability varies significantly across product categories and regions.
+- Certain segments generate high sales volume but contribute lower profit margins.
+- Interactive slicers enable stakeholders to analyze data across multiple dimensions such as date, region, category, and customer segment.
+
+---
+
+## Business Value
+This dashboard enables:
+- Faster decision-making through executive KPIs
+- Identification of performance gaps and opportunities
+- Improved visibility into profitability trends
+- Data-driven strategic planning
+
+---
+
+## Conclusion
+The Sales Analytics Dashboard provides a comprehensive and executive-ready view of business performance, helping stakeholders monitor growth, profitability, and operational efficiency.
