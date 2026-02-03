@@ -1,0 +1,119 @@
+# 📘 Data Dictionary  
+**Project:** Sales Data Analytics Dashboard
+
+This document describes the structure, meaning, and usage of each column in the Sales dataset used for analysis and dashboard creation.
+
+---
+
+## 📂 Dataset Information
+
+- Dataset Type: Sales Transactional Data
+- File Format: CSV
+- Purpose: Sales performance, profitability, and business insight analysis
+
+---
+
+## 🧾 Column Definitions
+
+### 🆔 Order Information
+
+| Column Name | Data Type | Description |
+|------------|----------|-------------|
+| Order ID | Text | Unique identifier for each customer order |
+| Order Date | Date | Date on which the order was placed |
+| Ship Date | Date | Date on which the order was shipped |
+| Ship Mode | Text | Shipping method used (Standard, Second Class, etc.) |
+
+---
+
+### 👤 Customer Details
+
+| Column Name | Data Type | Description |
+|------------|----------|-------------|
+| Customer ID | Text | Unique identifier for each customer |
+| Customer Name | Text | Name of the customer |
+| Segment | Text | Market segment of the customer (Consumer, Corporate, Home Office) |
+
+---
+
+### 📍 Geographic Details
+
+| Column Name | Data Type | Description |
+|------------|----------|-------------|
+| Country | Text | Country where the order was placed |
+| Region | Text | Sales region (East, West, Central, South) |
+| State | Text | State of the customer |
+| City | Text | City of the customer |
+| Postal Code | Numeric | Postal/ZIP code of the delivery location |
+
+---
+
+### 📦 Product Details
+
+| Column Name | Data Type | Description |
+|------------|----------|-------------|
+| Product ID | Text | Unique identifier for each product |
+| Product Name | Text | Name of the product |
+| Category | Text | High-level product category (Furniture, Office Supplies, Technology) |
+| Sub-Category | Text | Detailed product classification under each category |
+
+---
+
+### 💰 Sales & Financial Metrics
+
+| Column Name | Data Type | Description |
+|------------|----------|-------------|
+| Sales | Decimal | Total sales value of the transaction |
+| Quantity | Integer | Number of units sold |
+| Discount | Decimal | Discount applied to the product |
+| Profit | Decimal | Net profit or loss from the transaction |
+
+---
+
+## 📐 Derived / Calculated Metrics
+
+These metrics were calculated inside Power BI using DAX:
+
+| Metric Name | Description |
+|------------|-------------|
+| Total Sales | Sum of all sales values |
+| Total Profit | Sum of profit across all transactions |
+| Profit Margin (%) | Profit as a percentage of Sales |
+| Average Discount | Average discount applied |
+| Orders Count | Count of unique orders |
+
+---
+
+## 📊 Usage in Dashboard
+
+Each column supports the following analyses:
+
+- **Sales & Profit KPIs** → Sales, Profit, Profit Margin
+- **Category Analysis** → Category, Sub-Category
+- **Regional Performance** → Region, State, City
+- **Trend Analysis** → Order Date
+- **Customer Segmentation** → Segment
+
+---
+
+## ✅ Data Quality Notes
+
+- No missing or null values in critical columns
+- Negative profit values indicate losses (retained intentionally)
+- Data types validated before visualization
+
+---
+
+## 🛠 Tools Used
+
+- Microsoft Power BI
+- DAX for calculated measures
+- Excel for initial validation
+
+---
+
+## 👤 Author
+
+**Shivi Shrivastava**  
+Data Analytics | Business Intelligence  
+
